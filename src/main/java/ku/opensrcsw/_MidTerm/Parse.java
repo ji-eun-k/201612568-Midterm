@@ -34,10 +34,8 @@ public class Parse {
 			System.out.println("파일을 열 수 없습니다.");
 			
 		} catch (ParseException h) {
-			
-			
-		} finally {
-		}
+			System.out.println("파싱을 할 수 없습니다.");
+		} 
 		
 	}
 
